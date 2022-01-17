@@ -1,0 +1,16 @@
+{
+    "Menu": [
+        {"label": "Home", "href": "#"},
+        {"label": "Disabilities", "href": "/Disabilities"},
+        {"label": "Learning Outcomes",
+            "children": [
+                {"label": "Challenges","href": "/Challenges"},
+                {"label": "Needs","href": "/Needs"},
+                {"label": "Key Success Factors","href": "/KeySuccessFactors"},
+                {"label": "Activity Titles","href": "/ActivityTitles"}
+            ]
+        },
+        {"label": "Activities", "href": "/Activities"},
+        {"label": "Random", "href": "/Random"}
+    ]
+}

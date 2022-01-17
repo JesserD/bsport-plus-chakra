@@ -1,0 +1,210 @@
+
+{
+    "Menu": [
+        {"label": "Home", "href": "/"},
+        {"label": "Disabilities", "href": "/Disabilities"},
+        {"label": "Learning Outcomes",
+            "children": [
+                {"label": "Challenges","href": "/Challenges"},
+                {"label": "Needs","href": "/Needs"},
+                {"label": "Key Success Factors","href": "/KeySuccessFactors"},
+                {"label": "Activity Titles","href": "/ActivityTitles"}
+            ]
+        },
+        {"label": "Activities", "href": "/Activities"},
+        {"label": "Random", "href": "/Random"},
+        {"label": "About us", "href": "/AboutUs"}
+    ],
+    "ExampleOfActivites":{
+        "numberOfActivites":8,
+        "Activites":
+        [
+            {
+                "title":"Hiking program: nature for people with fewer opportunities related to psychiatric disorders",
+                "partner":"Intra",
+                "link":"./Files/INTRAS.pdf",
+                "logo":"./Logos/Intra.png",
+                "targetGroup":"People with mental health issues",
+                "needs":"There is a need of finding normalized environments that suit their special characteristics. Engagement in apropriate physical activities suited there condion. Handle social stigma and anticipated exclusion. Confusion between people with disabilities due to mental illness and people with intellectual disabilities.",
+                "challenges":"Challenges that come up when working with people living with the symptoms of mental health issues are: Finding normalized environments that suit their special characteristics. Engagement in physical activities due to side effects of the medication they take or other illness associated as diabetes type 2, obesity, metabolic syndrome, etc. Social stigma associated to mental illness which limits their social participation. Anticipated exclusion, which makes the person to isolate his/herself from the community in order to not be rejected. Confusion between people with disabilities due to mental illness and people with intellectual disabilities.",
+                "references": [
+                    {"Club Deportivo Duero":"https://es-es.facebook.com/CDduero/"},
+                    {"HIKING CLUB ‘Ojanco’":"https://clubojanco.es/"}
+                ],
+                "KeySuccessFactors":"The only prerequisite: to enjoy walking in the nature.  Carrying out activities in the nature has an intrinsic motivation and is an inclusive leisure and free time activities. The previous work and preparation of participants"
+            },
+            {
+                "title":"WORKPLACE WELLNESS: Wellness program - workplace exercise and a healthy food",
+                "partner":"Ozara",
+                "link":"./Files/OZARA.pdf",
+                "logo":"./Logos/Ozara.png",
+                "targetGroup":"Companies that employ people with disabilities and want to raise the level of a healthy work environment, and employees who want to strengthen their health and well-being.",
+                "needs":"There is a need to tackle overeating and obesity",
+                "challenges":"Challenges is to finde external contractors, teachers, coach teams to lead workshops",
+                "references": [
+                    {"ZDS":"https://www.zds.si/sl/projekti/vseslovenska-kampanja-za-ozavescanje-delodajalcev-za-ohranjanje-in-krepitev-zdravja-zaposlenih-na-delovnem-mestu/"},
+                    {"NIJZ":"https://www.nijz.si/sl/podrocja-dela/moj-zivljenjski-slog/telesna-dejavnost"},
+                    {"Wellsteps":"https://www.wellsteps.com/blog/2020/01/02/office-challenge-ideas-office-fitness-challenges/"},
+                    {"MIT":"https://sloanreview.mit.edu/article/do-workplace-wellness-programs-really-work/"},
+                    {"Okusno":"https://okusno.je/zdravo-in-vegi/fit/recept-za-fit-obrok-ki-ga-lahko-hitro-pripravite-med-tednom.html"}
+                ],
+                "KeySuccessFactors":"Easier for employees to get involved in activities if they have the opportunity to co-create them themselves"
+            }, 
+            {
+                "title":"Personal Well-being: Aerobic and strength exercise program for people with depression and / or stress",
+                "partner":"Infad",
+                "link":"./Files/INFAD.pdf",
+                "logo":"./Logos/Infad.png",
+                "targetGroup":"People with depression and / or stress",
+                "needs":"There is a global need to tackle depression that according ot WHO effect over 300 miljon people worldwide",   
+                "challenges":"Challenges is to reache people with disabilites.",
+                "references":[
+                    {"BIB":"Bennie, JA, Teychenne, MJ, De Cocker, K., & Biddle, SJ (2019). Associations between aerobic and muscle-strengthening exercise with depressive symptom severity among 17,839 US adults. Preventive medicine, 121, 121-127."},
+                    {"BIB":"Carneiro, L., Afonso, J., Ramirez-Campillo, R., Murawska-Ciałowciz, E., Marques, A., & Clemente, FM (2020). The effects of exclusively resistance training-based supervised programs in people with depression: a systematic review and meta-analysis of randomized controlled trials. International journal of environmental research and public health, 17 (18), 6715."},
+                    {"BIB":"Cofré-Bolados, C., Sánchez-Aguilera, P., Zafra-Santos, E., & Espinoza-Salinas, A. (2016). High intensity aerobic training: History and clinical physiology of exercise. Magazine of the Industrial University of Santander. Health, 48 (3), 275-284."},
+                    {"BIB":"Kandola, AA, Osborn, DP, Stubbs, B., Choi, KW, & Hayes, JF (2020). Individual and combined associations between cardiorespiratory fitness and grip strength with common mental disorders: a prospective cohort study in the UK Biobank. BMC medicine, 18 (1), 1-11."},
+                    {"BIB":"Kim, YS, O'Sullivan, DM, & Shin, SK (2019). Can 24 weeks strength training reduce feelings of depression and increase neurotransmitter in elderly females ?. Experimental gerontology, 115, 62-68."},
+                    {"BIB":"Moraes, HS, Silveira, HS, Oliveira, NA, Portugal, EMM, Araújo, NB, Vasques, PE, ... & Deslandes, AC (2020). Is strength training as effective as aerobic training for depression in older adults? A randomized controlled trial. Neuropsychobiology, 79 (2), 141-149."},
+                    {"BIB":"Pérez Busteros, I. (2020). HIIT as a treatment in the COPD patient: bibliographic review and treatment proposal."},
+                    {"BIB":"Singh, NA; Stavrinos, TA; Scarbek, Y .; Galambos, G .; Liber, C .; Singh, MAF A randomized controlled trial of high versus low intensity weight training versus general practitioner care for clinical depression in older adults. J. Gerontol. Ser. A Biol. Sci. Med Sci. 2005, 60, 768–776."},
+                    {"BIB":"Stubbs, B .; Rosenbaum, S .; Vancampfort, D .; Ward, PB; Schuch, FB Exercise improves cardiorespiratory fitness in people with depression: a meta-analysis of randomized controlled trials. J. Affect. Disorder. 2016, 190, 249-253."}
+                ],
+                "KeySuccessFactors":"It is an evidence-based aerobic and strength activity program targeting depressed people"
+            },
+            {
+                "title":"Trail cycling for children and young people with neuropsychiatric disabilities",
+                "partner":"KTH",
+                "link":"./Files/KTH.pdf",
+                "logo":"./Logos/KTH.png",
+                "targetGroup":"Young people with neuropsychiatric disabilities",
+                "needs":"There is need to find heart rate enhancing activity sutiable for young people with disabilites", 
+                "challenges":"Find sutiable leaders the have the time and experince to lead a young group of with neuropsychiatric disabilities",
+                "references": [
+                    {"Cykelframjande":"https://www.cykelframjande.se"},
+                    {"Friluftstramjande":"https://www.friluftsframjande.se"},
+                    {"Outride":"https://outridebike.org/research"}
+                ],
+                "KeySuccessFactors":"It's a fun heart rate increasing activity that requrire focus"
+            },
+            {
+                "title":"You can not stop people with disabilities",
+                "partner":"Top Coach",
+                "link":"./Files/TopCoach.pdf",
+                "logo":"./Logos/Top Coach.png",
+                "targetGroup":"People with disabilities",
+                "needs":"Studies have shown that time in nature was found to have a positive effect on mood and aspects of cognitive function, including working memory, as well as a dampening effect on anxiety.",
+                "challenges":"Motivated and well-trained person without disabilities. Support form the surrounding and family of person with disabilities, Funding.",
+                "references":[
+                    {"Stanford":"https://news.stanford.edu/2015/06/30/hiking-mental-health-063015/"},
+                    {"History":"https://www.nezastavitelni.sk/historia"},
+                    {"Home Page":"https://www.nezastavitelni.sk"},
+                    {"Hiking with a person with Down Syndrome": "https://www.nezastavitelni.sk/clanky-a-galeria/13573128-erika-michal-majka-marek-po-stopach-jednorozca-a-mikulasa-na-bolehlav-a-slepy-vrch"},
+                    {"Group hiking with people that hve diffrennt mental issues":"https://www.nezastavitelni.sk/clanky-a-galeria/5926247-dominik-monika-hikemates-s-usmevom-na-vrchole-velkej-race"}
+                ],
+                "KeySuccessFactors":"A unique web site which connects people with disabilities and people without it."
+            },
+            {
+                "title":"Love food and live healthy",
+                "partner":"Sinapsi",
+                "link":"./Files/SINAPSI.pdf",
+                "logo":"./Logos/Sinapsi.png",
+                "targetGroup":"Young people with type 1 diabetes",
+                "needs":"There is a need to practising sport and exercising safely (e.g: maintaining normal glucose levels during training) for people with type 1 diabetes",
+                "challenges":"The awareness among health professionals of the importance of physical exercise for people with type 1 diabetes, as well as of the prevalence and consequences of psychological problems affecting adults with diabetes.",
+                "references":[
+                    {"Diabeties UK":"https://learningzone.diabetes.org.uk"},
+                    {"Diabete Sport Training": "https://www.facebook.com/diabetesporttraining/"},
+                    {"Result 1": "https://www.coni.it/it/news/8809-malag%C3%B2-alla-presentazione-del-diabete-sport-training.html"},
+                    {"Result 2": "https://www.gazzetta.it/Sport-Vari/Fitness/26-09-2014/fitness-sport-diabete-infantile-diabete-sport-training-alex-zanardi-90565738355.shtml"},
+                    {"Result 3": "http://www.siedp.it/files/ATTIDELXXICONGRESSONAZIONALESIEDP.pdf"}
+                ],
+                "KeySuccessFactors":"Using a multidisciplinary approach plays a key role in supporting people with type 1 diabetes to make healthy choice"
+            },
+            {
+                "title":"Weekly fitness program for children and young adults with type 1 diabetes ",
+                "partner":"EUT",
+                "link":"./Files/EUT.pdf",
+                "logo":"./Logos/EUT.png",
+                "targetGroup":"children and young adults with type 1 diabetes",
+                "needs":"Physical activity is one of the pillars in the treatment of diabetes and in the maintenance of a healthy lifestyle ", 
+                "challenges":"To find Sientific advices about exercising sutiable children and young adults with type 1 diabetes",
+                "references": [
+                    {"BIB":"Physical Activity Guidelines Advisory Committee. Physical Activity Guidelines Advisory Committee Report. Washington, DC, U.S. Department of Health and Human Services, 2008, p. 683"},
+                    {"BIB":"Chimen M, Kennedy A, Nirantharakumar K, Pang TT, Andrews R, Narendran P. What are the health benefits of physical activity in type 1 diabetes mellitus? A literature review. Diabetologia 2012;55:542–551"},
+                    {"BIB":"Olsen RH, Krogh-Madsen R, Thomsen C, Booth FW, Pedersen BK. Metabolic responses to reduced daily steps in healthy non exercising men. JAMA 2008;299:1261–1263"},
+                    {"BIB":"Tonoli C, Heyman E, Roelands B, et al. Effects of different types of acute and chronic (training) exercise on glycaemic control in type 1 diabetes mellitus: a meta-analysis. Sports Med 2012;42:1059–1080"},
+                    {"BIB":"Yardley JE, Kenny GP, Perkins BA, et al. Resistance versus aerobic exercise: acute effects on glycemia in type 1 diabetes. Diabetes Care 2013;36:537–542"},
+                    {"BIB":"Adolfsson P, Riddell MC, Taplin CE, Davis EA, Fournier PA, Annan F, et al. ISPAD Clinical Practice Consensus Guidelines 2018: exercise in children and adolescents with diabetes. Pediatr Diab. (2018) 19 (Suppl 27):205- 26. doi: 10.1111/pedi.12755"},
+                    {"BIB":"Pivovarov JA, Taplin CE, Riddell MC. Current perspectives on physical activity and exercise for youth with diabetes. Pediatr Diab. (2015) 16:242– 55. doi: 10.1111/pedi.12272"},
+                    {"BIB":"Bally L, Zueger T, Buehler T, Dokumaci AS, Speck C, Pasi N, et al. Metabolic and hormonal response to intermittent high-intensity and continuous moderate intensity exercise in individuals with type 1 diabetes: a randomized crossover study. Diabetologia. (2016) 59:776–84. doi: 10.1007/s00125-015-3854-7"},
+                    {"BIB":"Tonoli C, Heyman E, Roelands B, Buyse L, Cheung SS, Berthoin S, et al. Effects of different types of acute and chronic (training) exercise on glycaemic control in type 1 diabetes mellitus: a meta-analysis. Sports Med. (2012) 42:1059–80. doi: 10.1007/BF03262312 "},
+                    {"BIB":"Rabasa-Lhoret R, Bourque J, Ducros F, Chiasson JL. Guidelines for premeal insulin dose reduction for postprandial exercise of different intensities and durations in type 1 diabetic subjects treated intensively with a basalbolus insulin regimen (ultralente-lispro). Diabetes Care. (2001) 24:625– 30. doi: 10.2337/diacare.24.4.625 "},
+                    {"BIB":"Kreisman SH, Halter JB, Vranic M, Marliss EB. Combined infusion of epinephrine and norepinephrine during moderate exercise reproduces the glucoregulatory response of intense exercise. Diabetes. (2003) 52:1347– 54. doi: 10.2337/diabetes.52.6.1347 "},
+                    {"BIB":"Temple MY, Bar-Or O, Riddell MC. The reliability and repeatability of the blood glucose response to prolonged exercise in adolescent boys with IDDM. Diabetes Care. (1995) 18:326–32. doi: 10.2337/diacare.18.3.326"},
+                    {"BIB":"Hallal PC, Victora CG, Azevedo MR, Wells JCK. Adolescent physical activity and health. Sport Med. 2006; 12 (1): 1019-1030"},
+                    {"BIB":"Kummer S, Stahl-Pehe A, Castilho K, Bachle C, Straburger K, Salgin B, et al. Health behavior in children and adolescents with type 1 diabetes compared a representative reference population. JournalPlos-One. 2014; 9(11): 1120-1183"},
+                    {"BIB":"Valério G, Spagnuolo MI, Lombardi F, Spadaro, Siano M, Franzese A. Physical activity and sports participation in children and adolescents with type 1 diabetes mellitus. Nutr Metab Cardiovasc Dis. 2005; 17 (5): 376-382."},
+                    {"BIB":"Bregu, A., Toçi, E., Rrumbullaku, L., Muja, H., Roshi, E., & Burazeri, G. (2013). Prevalence of Diabetes Mellitus in a Population-Based Sample of Adults in Tirana, Albania. Journal of Advances in Medicine and Medical Research, 4(3), 852-861."},
+                    {"BIB":"Guelfi KJ, Ratnam N, Smythe GA, Jones TW, Fournier PA. Effect of intermittent high-intensity compared with continuous moderate exercise on glucose production and utilization in individuals with type 1 diabetes. Am J Physiol Endocrinol Metab 2007;292:E865–E870"},
+                    {"BIB":"Physical Activity/Exercise and Diabetes: A Position Statement of the American Diabetes Association. Sheri R. Colberg, Ronald J. Sigal, Jane E. Yardley, Michael C. Riddell, David W. Dunstan, Paddy C. Dempsey, Edward S. Horton, Kristin Castorino, Deborah F. Tate Diabetes Care Nov 2016, 39 (11) 2065-2079; DOI: 10.2337/dc16-1728"},
+                    {"BIB":"Yardley, J. E., Kenny, G. P., Perkins, B. A., Riddell, M. C., Balaa, N., Malcolm, J., Boulay, P., Khandwala, F., & Sigal, R. J. (2013). Resistance versus aerobic exercise: acute effects on glycemia in type 1 diabetes. Diabetes care, 36(3), 537–542. https://doi.org/10.2337/dc12-0963"},
+                    {"BIB":"Riddell, M. C., Gallen, I. W., Smart, C. E., Taplin, C. E., Adolfsson, P., Lumb, A. N., Kowalski, A., Rabasa-Lhoret, R., McCrimmon, R. J., Hume, C., Annan, F., Fournier, P. A., Graham, C., Bode, B., Galassetti, P., Jones, T. W., Millán, I. S., Heise, T., Peters, A. L., Petz, A., … Laffel, L. M. (2017). Exercise management in type 1 diabetes: a consensus statement. The lancet. Diabetes & endocrinology, 5(5), 377–390. https://doi.org/10.1016/S2213-8587(17)30014-1"},
+                    {"BIB":"Roberts CK, Hevener AL, Barnard RJ. Metabolic syndrome and insulin resistance: underlying causes and modification by exercise training. Compr Physiol 2013;3:1–58"}
+                ],
+                "KeySuccessFactors":"It's a fun heart rate increasing activity that requrire focus"
+            },
+            {
+                "title":"Mens sana in corpore sano: A sound mind in a sound body",
+                "partner":"Trendhuis",
+                "link":"./Files/Trendhuis.pdf",
+                "logo":"./Logos/Trendhuis.png",
+                "targetGroup":"People with an occupational disease (such as depression and burnout)",
+                "needs":"In Belgium, 62% of all workers suffer from excessive stress and 1/3 of the disability benefits in Belgium are due to mental problems.",
+                "challenges":"Encourage employers to offer their employees the possibility to practice sports during working hours",
+                "references":[
+                    {"Diabeties UK":"https://learningzone.diabetes.org.uk"},
+                    {"Diabete Sport Training": "https://www.facebook.com/diabetesporttraining/"},
+                    {"Result 1": "https://www.coni.it/it/news/8809-malag%C3%B2-alla-presentazione-del-diabete-sport-training.html"},
+                    {"Result 2": "https://www.gazzetta.it/Sport-Vari/Fitness/26-09-2014/fitness-sport-diabete-infantile-diabete-sport-training-alex-zanardi-90565738355.shtml"},
+                    {"Result 3": "http://www.siedp.it/files/ATTIDELXXICONGRESSONAZIONALESIEDP.pdf"}
+                ],
+                "KeySuccessFactors":"Workers really want to practice sports and having the opportunity to practice sports at the work floor or during working hours makes it happen"
+            }
+        ]
+    },
+    "ExampleOfExcerciseProgram":{
+        "numberOfExercisePrograms":5,
+        "Exercise":[
+            {
+                "title":"Exercise at Work",
+                "partner":"Trendhuis",
+                "link":"./Files/Trendhuis_activity.pdf",
+                "logo":"./Logos/Trendhuis.png"
+            },
+            {
+                "title":"Exercise at Home",
+                "partner":"Sinapsi",
+                "link":"./Files/Sinapsi_activity.pdf",
+                "logo":"./Logos/Sinapsi.png"
+            },
+            {
+                "title":"Exercise and Nutriion at Work",
+                "partner":"Ozara",
+                "link":"./Files/OZARA_activity.pdf",
+                "logo":"./Logos/Ozara.png"
+            },
+            {
+                "title":"Aerobic and strength exercise program",
+                "partner":"Infad",
+                "link":"./Files/INFAD_activity.pdf",
+                "logo":"./Logos/Infad.png"
+            },
+            {
+                "title":"Weekly fitness program",
+                "partner":"EUT",
+                "link":"./Files/EUT_activity.pdf",
+                "logo":"./Logos/EUT.png"
+            }
+        ]
+    }   
+}     
