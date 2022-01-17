@@ -5,7 +5,7 @@ This project was bootstrapped with
 
 In the project directory, you can install:
 
-### 'npm install'
+### `npm install`
 
 In the project directory, you can run:
 
