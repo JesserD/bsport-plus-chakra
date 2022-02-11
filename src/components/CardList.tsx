@@ -28,7 +28,7 @@ interface TestimonialCardProps {
 function TestmonialCard(props: TestimonialCardProps) {
   const { partner, link, content, logo, index } = props;
   return (
-    <a href={link}>
+    <a href={link.concat('#maincontent')}>
       <Flex
         boxShadow={'lg'}
         maxW={'640px'}
@@ -99,7 +99,6 @@ function TestmonialCard(props: TestimonialCardProps) {
 }
 
 export default function GridBlurredBackdrop(arr: Array<any>) {
-  //console.log(typeof arr);
   const indexes: Array<number> = [];
   const testimonials: Array<TestimonialCardProps> = [];
   Object.entries(arr).forEach((e) => {
@@ -115,16 +114,12 @@ export default function GridBlurredBackdrop(arr: Array<any>) {
       direction={'column'}
       width={'full'}>
 
-      <SimpleGrid
-        columns={{ base: 1, xl: 2 }}
-        spacing={'20'}
-        mt={16}
-        mx={'auto'}>
-        {
-          testimonials.map((e) => (
+      <SimpleGrid columns={{ base: 1, xl: 2 }} spacing={'20'} mt={16} mx={'auto'}>
+        {testimonials.map((e) => (
             <TestmonialCard {...e} index={indexes[i++]} />
           ))}
       </SimpleGrid>
+      
       <Box>
         <Icon viewBox="0 0 40 35" mt={14} boxSize={10} color={'purple.400'}>
           <path fill={'currentColor'}

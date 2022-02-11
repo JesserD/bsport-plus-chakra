@@ -55,7 +55,7 @@ export default function CallToActionWithVideo() {
                             px={6}
                             colorScheme={'red'}
                             bg={'red.500'}
-                            _hover={{ bg: 'red.600' }}>
+                            _hover={{ bg: '#DE7878' }}>
                             Get started
                         </Button>
                     </Stack>

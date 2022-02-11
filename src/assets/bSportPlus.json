@@ -178,31 +178,31 @@
             {
                 "title":"Exercise at Work",
                 "partner":"Trendhuis",
-                "link":"./Files/Trendhuis_activity.pdf",
+                "link":"/Activities/ExerciseAtWork",
                 "logo":"./Logos/Trendhuis.png"
             },
             {
                 "title":"Exercise at Home",
                 "partner":"Sinapsi",
-                "link":"./Files/Sinapsi_activity.pdf",
+                "link":"/Activities/ExerciseAtHome",
                 "logo":"./Logos/Sinapsi.png"
             },
             {
                 "title":"Exercise and Nutriion at Work",
                 "partner":"Ozara",
-                "link":"./Files/OZARA_activity.pdf",
+                "link":"/Activities/ExerciseAndNutriionAtWork",
                 "logo":"./Logos/Ozara.png"
             },
             {
                 "title":"Aerobic and strength exercise program",
                 "partner":"Infad",
-                "link":"./Files/INFAD_activity.pdf",
+                "link":"/Activities/AerobicAndStrengthExerciseProgram",
                 "logo":"./Logos/Infad.png"
             },
             {
                 "title":"Weekly fitness program",
                 "partner":"EUT",
-                "link":"./Files/EUT_activity.pdf",
+                "link":"/Activities/WeeklyFitnessProgram",
                 "logo":"./Logos/EUT.png"
             }
         ]

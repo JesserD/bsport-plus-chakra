@@ -1,0 +1,57 @@
+.h2Styles {
+    text-align: left;
+    bottom: 2rem;
+    padding: 0.5rem;
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #1f497d;
+}
+
+.h3Styles {
+    text-align: left;
+    bottom: 2rem;
+    padding: 0.5rem;
+    font-family: Arial;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+;
+
+.h4Styles {
+    text-align: left;
+    bottom: 2rem;
+    padding: 0.5rem;
+    font-family: Arial;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+;
+
+.pStyles {
+    text-align: justify;
+    bottom: 2rem;
+    padding: 0.5rem;
+    font-family: times-new-roman;
+    font-size: 1.3rem;
+}
+
+;
+
+.ulStyles {
+    text-align: justify;
+    bottom: 2rem;
+    padding: 1rem;
+    font-family: times-new-roman;
+    font-size: 1.3rem;
+}
+
+;
+.linkStyles {
+    
+};
+.pageDivStyles {
+    width: 60%;
+  };

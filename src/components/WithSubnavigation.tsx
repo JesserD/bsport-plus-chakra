@@ -38,16 +38,7 @@ export default function WithSubnavigation() {
 
     return (
         <Box as='nav' style={{position: 'sticky', top: '0', zIndex: '1'}}>
-            <Flex
-                bg={useColorModeValue('red.100', 'gray.800')}
-                color={useColorModeValue('gray.600', 'white')}
-                minH={'60px'}
-                py={{ base: 2 }}
-                px={{ base: 4 }}
-                borderBottom={1}
-                borderStyle={'solid'}
-                borderColor={useColorModeValue('gray.200', 'gray.900')}
-                align={'center'}>
+            <Flex bg={useColorModeValue('red.100', 'gray.800')} color={useColorModeValue('gray.600', 'white')} minH={'60px'} py={{ base: 2 }} px={{ base: 4 }} borderBottom={1} borderStyle={'solid'} borderColor={useColorModeValue('gray.200', 'gray.900')} align={'center'}>
                 <Flex
                     flex={{ base: 1, md: 'auto' }}
                     ml={{ base: -2 }}
@@ -66,12 +57,10 @@ export default function WithSubnavigation() {
                         color={useColorModeValue('gray.800', 'white')}>
                         <Image alt='Bsport+ logo' boxSize='30px' src={Logo} />
                     </Text>
-
                     <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
                         <DesktopNav />
                     </Flex>
                 </Flex>
-
             </Flex>
 
             <Collapse in={isOpen} animateOpacity>
