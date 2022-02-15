@@ -14,6 +14,7 @@ import ExerciseAtHome from './contentPages/Activities/ExerciseAtHome/ExerciseAtH
 import ExerciseAndNutriionAtWork from './contentPages/Activities/ExerciseAndNutriionAtWork/ExerciseAndNutriionAtWork';
 import AerobicAndStrengthExerciseProgram from './contentPages/Activities/AerobicAndStrengthExerciseProgram/AerobicAndStrengthExerciseProgram';
 import WeeklyFitnessProgram from './contentPages/Activities/WeeklyFitnessProgram/WeeklyFitnessProgram';
+import ContactUsPage from './pages/ContactUsPage';
 
 const App: React.FC = () => {
 
@@ -43,6 +44,7 @@ const App: React.FC = () => {
 
                     <Route path='/Random' element={<RandomPage/>}/>
                     <Route path='/AboutUs' element={<AboutUsPage/>}/>
+                    <Route path='/ContactUs' element={<ContactUsPage/>}/>
                     <Route path='/Example' element={<ExempelComponent/>}/>
                   </Routes>
                   <Image alt='' src={ErasmusEuLogo}/>

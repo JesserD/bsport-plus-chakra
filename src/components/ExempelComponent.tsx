@@ -1,4 +1,3 @@
-import { Button } from '@chakra-ui/react';
 import * as React from 'react';
 
 
@@ -7,9 +6,10 @@ export default function ExempelComponent() {
 
   return (
     <div >
-    <Button bg={'#2E2E2E'} aria-labelledby='' tabIndex={3}
-     style={{ color: '#8F8F8F' }}> 
-    Click me</Button>
+      <video width="320" height="240" controls>
+        <source src="http://localhost:3000/Media/MIB2.mp4" type="video/mp4" />
+        <track src="./Media/MIB2-subtitles-pt-BR.vtt" kind="subtitles" srcLang="pt" label="Portugese" />
+      </video>
     </div>
   );
 }
