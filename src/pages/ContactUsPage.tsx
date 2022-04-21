@@ -34,6 +34,7 @@ export default function ContactUsPage() {
         const isValid =
             newValue.includes('@') &&
             newValue.includes('.') &&
+            !newValue.includes(' ') &&
             newValue.indexOf('@') < newValue.lastIndexOf('.');
         setInvalidEmail(!isValid);
         setEmail(newValue);

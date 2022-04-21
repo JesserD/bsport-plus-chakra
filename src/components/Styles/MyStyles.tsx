@@ -67,7 +67,7 @@ export const linkStyles: CSS.Properties = {
 };
 
 export const pageDivStyles: CSS.Properties = {
-  width: '60%',
+  
 };
 
 export const tabelStyles: CSS.Properties = {

@@ -22,7 +22,7 @@ import {
     ChevronRightIcon,
 } from '@chakra-ui/icons';
 import Logo from '../assets/logo192.png';
-import { Menu } from '../assets/bSportPlus.json';
+import Data from '../assets/bSportPlus.json';
 
 interface NavItem {
     label: string;
@@ -31,6 +31,7 @@ interface NavItem {
     href?: string;
 }
 
+const { Menu } = Data;
 const NAV_ITEMS: Array<NavItem> = Menu;
 
 export default function WithSubnavigation() {
@@ -48,8 +49,8 @@ export default function WithSubnavigation() {
                         variant={'ghost'}
                         aria-label={'Toggle Navigation'}
                     />
-
                 </Flex>
+
                 <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
                     <Text
                         textAlign={useBreakpointValue({ base: 'center', md: 'left' })}

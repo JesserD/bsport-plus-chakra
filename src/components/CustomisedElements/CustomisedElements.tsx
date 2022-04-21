@@ -1,3 +1,4 @@
+import { Flex } from '@chakra-ui/react';
 import * as React from 'react';
 import * as Styles from '../Styles/MyStyles';
 
@@ -17,7 +18,7 @@ export const H5 = ({ children }: React.PropsWithChildren<React.ReactNode>) => {
     return (<h5 style={Styles.h5Styles}>{children}</h5>);
 };
 export const PageDiv = ({ children }: React.PropsWithChildren<React.ReactNode>) => {
-    return (<div style={Styles.pageDivStyles}>{children}</div>);
+    return (<Flex flexDirection='column' maxW='60%' p={5}>{children}</Flex>);
 };
 export const P = ({ children }: React.PropsWithChildren<React.ReactNode>) => {
     return (<p style={Styles.pStyles}>{children}</p>);
